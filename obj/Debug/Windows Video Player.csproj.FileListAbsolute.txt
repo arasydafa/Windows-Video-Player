@@ -1,0 +1,16 @@
+C:\Users\USER\source\repos\Project WSKM Video Player\bin\Debug\Windows Video Player.exe.config
+C:\Users\USER\source\repos\Project WSKM Video Player\bin\Debug\Windows Video Player.exe
+C:\Users\USER\source\repos\Project WSKM Video Player\bin\Debug\Windows Video Player.pdb
+C:\Users\USER\source\repos\Project WSKM Video Player\bin\Debug\Interop.WMPLib.dll
+C:\Users\USER\source\repos\Project WSKM Video Player\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Interop.WMPLib.dll
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.csproj.ResolveComReference.cache
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows_Video_Player.Properties.Resources.resources
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.exe
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows Video Player.pdb
+C:\Users\USER\source\repos\Project WSKM Video Player\obj\Debug\Windows_Video_Player.Form1.resources

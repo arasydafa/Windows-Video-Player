@@ -1,5 +1,5 @@
 ﻿
-namespace Project_WSKM_Video_Player
+namespace Windows_Video_Player
 {
     partial class Form1
     {
@@ -72,9 +72,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.PlayButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PlayButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayButton.Location = new System.Drawing.Point(534, 8);
+            this.PlayButton.Location = new System.Drawing.Point(400, 6);
+            this.PlayButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PlayButton.Name = "PlayButton";
-            this.PlayButton.Size = new System.Drawing.Size(158, 32);
+            this.PlayButton.Size = new System.Drawing.Size(118, 26);
             this.PlayButton.TabIndex = 1;
             this.PlayButton.Text = "Play";
             this.PlayButton.UseVisualStyleBackColor = true;
@@ -86,17 +87,19 @@ namespace Project_WSKM_Video_Player
             this.panel1.Controls.Add(this.BrowseButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1902, 46);
+            this.panel1.Size = new System.Drawing.Size(1426, 37);
             this.panel1.TabIndex = 2;
             // 
             // TitleVideo
             // 
             this.TitleVideo.AutoSize = true;
             this.TitleVideo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleVideo.Location = new System.Drawing.Point(614, 9);
+            this.TitleVideo.Location = new System.Drawing.Point(460, 7);
+            this.TitleVideo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TitleVideo.Name = "TitleVideo";
-            this.TitleVideo.Size = new System.Drawing.Size(61, 29);
+            this.TitleVideo.Size = new System.Drawing.Size(45, 24);
             this.TitleVideo.TabIndex = 0;
             this.TitleVideo.Text = "Title";
             this.TitleVideo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -106,9 +109,10 @@ namespace Project_WSKM_Video_Player
             this.BrowseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BrowseButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BrowseButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BrowseButton.Location = new System.Drawing.Point(9, 8);
+            this.BrowseButton.Location = new System.Drawing.Point(7, 6);
+            this.BrowseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BrowseButton.Name = "BrowseButton";
-            this.BrowseButton.Size = new System.Drawing.Size(158, 32);
+            this.BrowseButton.Size = new System.Drawing.Size(118, 26);
             this.BrowseButton.TabIndex = 1;
             this.BrowseButton.Text = "Browse";
             this.BrowseButton.UseVisualStyleBackColor = true;
@@ -128,18 +132,20 @@ namespace Project_WSKM_Video_Player
             this.panel2.Controls.Add(this.fastForwardButton);
             this.panel2.Controls.Add(this.PlayButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 978);
+            this.panel2.Location = new System.Drawing.Point(0, 794);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1902, 55);
+            this.panel2.Size = new System.Drawing.Size(1426, 45);
             this.panel2.TabIndex = 3;
             // 
             // volumeLabel
             // 
             this.volumeLabel.AutoSize = true;
             this.volumeLabel.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volumeLabel.Location = new System.Drawing.Point(1073, 13);
+            this.volumeLabel.Location = new System.Drawing.Point(805, 11);
+            this.volumeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.volumeLabel.Name = "volumeLabel";
-            this.volumeLabel.Size = new System.Drawing.Size(68, 23);
+            this.volumeLabel.Size = new System.Drawing.Size(55, 19);
             this.volumeLabel.TabIndex = 4;
             this.volumeLabel.Text = "Volume";
             // 
@@ -147,9 +153,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.fastReverseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fastReverseButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fastReverseButton.Location = new System.Drawing.Point(12, 8);
+            this.fastReverseButton.Location = new System.Drawing.Point(9, 6);
+            this.fastReverseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.fastReverseButton.Name = "fastReverseButton";
-            this.fastReverseButton.Size = new System.Drawing.Size(158, 32);
+            this.fastReverseButton.Size = new System.Drawing.Size(118, 26);
             this.fastReverseButton.TabIndex = 1;
             this.fastReverseButton.Text = "<<<";
             this.fastReverseButton.UseVisualStyleBackColor = true;
@@ -159,18 +166,20 @@ namespace Project_WSKM_Video_Player
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1493, 13);
+            this.label4.Location = new System.Drawing.Point(1120, 11);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 23);
+            this.label4.Size = new System.Drawing.Size(14, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "/";
             // 
             // durationLabel
             // 
             this.durationLabel.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.durationLabel.Location = new System.Drawing.Point(1505, 13);
+            this.durationLabel.Location = new System.Drawing.Point(1129, 11);
+            this.durationLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.durationLabel.Name = "durationLabel";
-            this.durationLabel.Size = new System.Drawing.Size(72, 23);
+            this.durationLabel.Size = new System.Drawing.Size(54, 19);
             this.durationLabel.TabIndex = 3;
             this.durationLabel.Text = "00:00:00";
             this.durationLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -178,10 +187,11 @@ namespace Project_WSKM_Video_Player
             // currentLabel
             // 
             this.currentLabel.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentLabel.Location = new System.Drawing.Point(1426, 13);
+            this.currentLabel.Location = new System.Drawing.Point(1070, 11);
+            this.currentLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.currentLabel.Name = "currentLabel";
             this.currentLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.currentLabel.Size = new System.Drawing.Size(72, 23);
+            this.currentLabel.Size = new System.Drawing.Size(54, 19);
             this.currentLabel.TabIndex = 3;
             this.currentLabel.Text = "00:00:00";
             this.currentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -190,10 +200,11 @@ namespace Project_WSKM_Video_Player
             // 
             this.volumeTrackBar.Cursor = System.Windows.Forms.Cursors.NoMoveHoriz;
             this.volumeTrackBar.LargeChange = 2;
-            this.volumeTrackBar.Location = new System.Drawing.Point(1147, 10);
+            this.volumeTrackBar.Location = new System.Drawing.Point(860, 8);
+            this.volumeTrackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.volumeTrackBar.Maximum = 100;
             this.volumeTrackBar.Name = "volumeTrackBar";
-            this.volumeTrackBar.Size = new System.Drawing.Size(272, 56);
+            this.volumeTrackBar.Size = new System.Drawing.Size(204, 45);
             this.volumeTrackBar.TabIndex = 2;
             this.volumeTrackBar.Scroll += new System.EventHandler(this.volumeTrackBar_Scroll);
             // 
@@ -201,9 +212,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.muteButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.muteButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.muteButton.Location = new System.Drawing.Point(882, 8);
+            this.muteButton.Location = new System.Drawing.Point(662, 6);
+            this.muteButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.muteButton.Name = "muteButton";
-            this.muteButton.Size = new System.Drawing.Size(158, 32);
+            this.muteButton.Size = new System.Drawing.Size(118, 26);
             this.muteButton.TabIndex = 1;
             this.muteButton.Text = "Mute";
             this.muteButton.UseVisualStyleBackColor = true;
@@ -213,9 +225,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.PauseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PauseButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PauseButton.Location = new System.Drawing.Point(708, 8);
+            this.PauseButton.Location = new System.Drawing.Point(531, 6);
+            this.PauseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PauseButton.Name = "PauseButton";
-            this.PauseButton.Size = new System.Drawing.Size(158, 32);
+            this.PauseButton.Size = new System.Drawing.Size(118, 26);
             this.PauseButton.TabIndex = 1;
             this.PauseButton.Text = "Pause";
             this.PauseButton.UseVisualStyleBackColor = true;
@@ -225,9 +238,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.StopButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.StopButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StopButton.Location = new System.Drawing.Point(360, 8);
+            this.StopButton.Location = new System.Drawing.Point(270, 6);
+            this.StopButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StopButton.Name = "StopButton";
-            this.StopButton.Size = new System.Drawing.Size(158, 32);
+            this.StopButton.Size = new System.Drawing.Size(118, 26);
             this.StopButton.TabIndex = 1;
             this.StopButton.Text = "Stop";
             this.StopButton.UseVisualStyleBackColor = true;
@@ -237,9 +251,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.fastForwardButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fastForwardButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fastForwardButton.Location = new System.Drawing.Point(186, 8);
+            this.fastForwardButton.Location = new System.Drawing.Point(140, 6);
+            this.fastForwardButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.fastForwardButton.Name = "fastForwardButton";
-            this.fastForwardButton.Size = new System.Drawing.Size(158, 32);
+            this.fastForwardButton.Size = new System.Drawing.Size(118, 26);
             this.fastForwardButton.TabIndex = 1;
             this.fastForwardButton.Text = ">>>";
             this.fastForwardButton.UseVisualStyleBackColor = true;
@@ -249,9 +264,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.nextButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nextButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextButton.Location = new System.Drawing.Point(11, 567);
+            this.nextButton.Location = new System.Drawing.Point(8, 461);
+            this.nextButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(242, 32);
+            this.nextButton.Size = new System.Drawing.Size(182, 26);
             this.nextButton.TabIndex = 1;
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = true;
@@ -261,9 +277,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.previousButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.previousButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.previousButton.Location = new System.Drawing.Point(11, 518);
+            this.previousButton.Location = new System.Drawing.Point(8, 421);
+            this.previousButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.previousButton.Name = "previousButton";
-            this.previousButton.Size = new System.Drawing.Size(242, 32);
+            this.previousButton.Size = new System.Drawing.Size(182, 26);
             this.previousButton.TabIndex = 1;
             this.previousButton.Text = "Previous";
             this.previousButton.UseVisualStyleBackColor = true;
@@ -279,6 +296,7 @@ namespace Project_WSKM_Video_Player
             // 
             this.mediaPlayer.Enabled = true;
             this.mediaPlayer.Location = new System.Drawing.Point(3, 0);
+            this.mediaPlayer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mediaPlayer.Name = "mediaPlayer";
             this.mediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaPlayer.OcxState")));
             this.mediaPlayer.Size = new System.Drawing.Size(1285, 757);
@@ -298,27 +316,30 @@ namespace Project_WSKM_Video_Player
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.searchBox);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1637, 0);
+            this.panel4.Location = new System.Drawing.Point(1227, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(265, 932);
+            this.panel4.Size = new System.Drawing.Size(199, 757);
             this.panel4.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F);
-            this.label3.Location = new System.Drawing.Point(97, 645);
+            this.label3.Location = new System.Drawing.Point(73, 524);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 28);
+            this.label3.Size = new System.Drawing.Size(57, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "Details";
             // 
             // detailsBox
             // 
             this.detailsBox.Font = new System.Drawing.Font("Nirmala UI", 12F);
-            this.detailsBox.Location = new System.Drawing.Point(12, 676);
+            this.detailsBox.Location = new System.Drawing.Point(9, 549);
+            this.detailsBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.detailsBox.Name = "detailsBox";
-            this.detailsBox.Size = new System.Drawing.Size(242, 242);
+            this.detailsBox.Size = new System.Drawing.Size(182, 197);
             this.detailsBox.TabIndex = 4;
             this.detailsBox.Text = "";
             // 
@@ -327,10 +348,11 @@ namespace Project_WSKM_Video_Player
             this.trackList.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.trackList.FormattingEnabled = true;
             this.trackList.HorizontalScrollbar = true;
-            this.trackList.ItemHeight = 28;
-            this.trackList.Location = new System.Drawing.Point(11, 137);
+            this.trackList.ItemHeight = 21;
+            this.trackList.Location = new System.Drawing.Point(8, 111);
+            this.trackList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.trackList.Name = "trackList";
-            this.trackList.Size = new System.Drawing.Size(242, 312);
+            this.trackList.Size = new System.Drawing.Size(182, 235);
             this.trackList.TabIndex = 3;
             this.trackList.SelectedIndexChanged += new System.EventHandler(this.trackList_SelectedIndexChanged);
             // 
@@ -338,9 +360,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(97, 104);
+            this.label2.Location = new System.Drawing.Point(73, 84);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 28);
+            this.label2.Size = new System.Drawing.Size(59, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Playlist";
             // 
@@ -348,9 +371,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.clearButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.clearButton.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(11, 469);
+            this.clearButton.Location = new System.Drawing.Point(8, 381);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(242, 32);
+            this.clearButton.Size = new System.Drawing.Size(182, 26);
             this.clearButton.TabIndex = 1;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -360,9 +384,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(97, 19);
+            this.label1.Location = new System.Drawing.Point(73, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 28);
+            this.label1.Size = new System.Drawing.Size(57, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "Search";
             // 
@@ -370,9 +395,10 @@ namespace Project_WSKM_Video_Player
             // 
             this.searchBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchBox.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchBox.Location = new System.Drawing.Point(11, 50);
+            this.searchBox.Location = new System.Drawing.Point(8, 41);
+            this.searchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(242, 36);
+            this.searchBox.Size = new System.Drawing.Size(182, 30);
             this.searchBox.TabIndex = 1;
             this.searchBox.Text = "";
             this.searchBox.TextChanged += new System.EventHandler(this.searchBox_TextChanged);
@@ -382,9 +408,10 @@ namespace Project_WSKM_Video_Player
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.mediaPlayer);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 46);
+            this.panel3.Location = new System.Drawing.Point(0, 37);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1902, 932);
+            this.panel3.Size = new System.Drawing.Size(1426, 757);
             this.panel3.TabIndex = 4;
             // 
             // openFileDialog
@@ -394,12 +421,13 @@ namespace Project_WSKM_Video_Player
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1426, 839);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Media Player ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

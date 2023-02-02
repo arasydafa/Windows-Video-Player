@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_WSKM_Video_Player
+namespace Windows_Video_Player
 {
     static class Program
     {

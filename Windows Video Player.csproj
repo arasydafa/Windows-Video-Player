@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5FF3C212-E0F3-4883-9319-97A02129402F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Project_WSKM_Video_Player</RootNamespace>
-    <AssemblyName>Project WSKM Video Player</AssemblyName>
+    <RootNamespace>Windows_Video_Player</RootNamespace>
+    <AssemblyName>Windows Video Player</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

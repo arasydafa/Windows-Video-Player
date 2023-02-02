@@ -2,12 +2,11 @@
 using System.Windows.Forms;
 using WMPLib;
 
-namespace Project_WSKM_Video_Player
+namespace Windows_Video_Player
 {
     public partial class Form1 : Form
     {
-
-        String[] paths, files;
+        private String[] paths, files;
 
         public Form1()
         {
